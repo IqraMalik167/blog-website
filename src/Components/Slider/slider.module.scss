@@ -1,0 +1,34 @@
+.bgImg {
+    width: 81%;
+    height: 800px;
+    margin: auto;
+    margin-top: 3rem;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.textWrapper {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    left: 3rem;
+    position: relative;
+
+    .textElement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 20%;
+        gap: 1rem;
+
+        .text {
+            margin: 0;
+            padding: 6px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+
+}
